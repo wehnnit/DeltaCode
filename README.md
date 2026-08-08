@@ -4,6 +4,8 @@ A coding CLI that reads your project, plans around its conventions, and does the
 
 Built with Bun + React + Ink. No Electron, no cloud IDE, no lock-in. Your files stay yours.
 
+[![DeltaCode terminal UI](assets/screenshot.png)](https://github.com/wehnnit/DeltaCode)
+
 ## What it does
 
 - **One lead agent, specialist helpers** — the lead agent handles the conversation and hands off to coding, research, or other agents when a task fits them better.
