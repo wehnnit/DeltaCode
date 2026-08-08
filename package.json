@@ -1,0 +1,28 @@
+{
+  "name": "delta",
+  "version": "0.1.0",
+  "description": "Delta — a free coding tool framework. Connect an API key, let the harness handle the rest.",
+  "type": "module",
+  "module": "src/cli.tsx",
+  "bin": {
+    "deltacode": "./src/cli.tsx"
+  },
+  "scripts": {
+    "dev": "bun run src/cli.tsx",
+    "setup": "bun run src/cli.tsx setup",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "postinstall": "bun run scripts/stub-devtools.js",
+    "build": "bun build ./src/cli.tsx --compile --allow-unresolved react-devtools-core --outfile deltacode"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "ink": "^5.2.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^18.3.12",
+    "typescript": "^5.6.3"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+deltacode
+delta
+*.tsbuildinfo
+.DS_Store
+.env
+pool.json
