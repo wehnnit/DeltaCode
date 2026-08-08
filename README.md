@@ -118,7 +118,7 @@ test/               bun test suite
 Headless mode (one-shot, no TUI):
 
 ```bash
-deltacode -p "fix the failing test" -y
+deltacode "fix the failing test" -y
 ```
 
 ## License
