@@ -436,7 +436,7 @@ export function DeltaApp(props: DeltaAppProps) {
     if (!history.length) return;
     pushItem({
       kind: "info",
-      text: `DeltaCode ready · ${projectDir} · ${preset?.name ?? config.provider}/${config.model} · type / for commands`,
+      text: `DeltaCode ready · ${projectDir.split("/").filter(Boolean).pop() ?? projectDir} · ${preset?.name ?? config.provider}/${config.model} · type / for commands`,
     });
     for (const m of history) {
       if (m.role === "user") pushItem({ kind: "user", text: m.content });

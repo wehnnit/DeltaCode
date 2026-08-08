@@ -26,7 +26,7 @@ export function HomeScreen(props: HomeScreenProps) {
           <WaveDivider width={44} />
         </Box>
         <Text color={theme.oceanDim}>
-          {props.projectDir} · {props.providerLabel} · {props.model} · {props.scopeLabel}
+          {props.projectDir.split("/").filter(Boolean).pop() ?? props.projectDir} · {props.providerLabel} · {props.model} · {props.scopeLabel}
         </Text>
         <Box width={74} marginTop={1}>
           <InputBox
