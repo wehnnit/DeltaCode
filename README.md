@@ -17,7 +17,7 @@ Built with Bun + React + Ink. No Electron, no cloud IDE, no lock-in. Your files 
 Requires [Bun](https://bun.sh) (the installer fetches it for you if it's missing).
 
 ```bash
-git clone <your-repo-url> && cd delta
+git clone https://github.com/wehnnit/DeltaCode && cd delta
 bash install.sh
 ```
 

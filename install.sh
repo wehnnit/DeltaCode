@@ -13,7 +13,7 @@
 set -euo pipefail
 
 # Set this to your Delta repository so the curl one-liner works.
-DELTA_REPO_URL="${DELTA_REPO_URL:-https://github.com/yourname/delta.git}"
+DELTA_REPO_URL="${DELTA_REPO_URL:-https://github.com/wehnnit/DeltaCode.git}"
 
 INSTALL_DIR="${DELTA_INSTALL_DIR:-$HOME/.delta}"
 BIN_DIR="$INSTALL_DIR/bin"
